@@ -7,32 +7,43 @@
 //
 
 #import "RootViewController.h"
+#import "SearchScreenViewController.h"
 
 @implementation RootViewController
+@synthesize mainPageOverlay, mainPageBkg, startSearchButton;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UIImage *mainBkg = [UIImage imageNamed:@"cloudsBkg.png"];
+    [mainPageBkg setImage:mainBkg];
+    
+    UIImage *overlay = [UIImage imageNamed:@"startScreen.png"];
+    [mainPageOverlay setImage:overlay];
 }
 
-- (void)viewWillAppear:(BOOL)animated
+- (IBAction) initiateSearch:(id)sender {
+        
+    SearchScreenViewController *searchVC = [[SearchScreenViewController alloc] initWithNibName:@"SearchScreenViewController" bundle:nil];
+    UINavigationController *navControl = [[UINavigationController alloc] initWithRootViewController:searchVC];
+    
+    [self presentModalViewController:navControl animated:YES];
+    
+    [searchVC release];
+    [navControl release];
+}
+
+- (void) viewWillAppear:(BOOL)animated
 {
+    [self.navigationController setNavigationBarHidden:YES animated:animated];
     [super viewWillAppear:animated];
 }
 
-- (void)viewDidAppear:(BOOL)animated
+- (void) viewDidDisappear:(BOOL)animated
 {
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:NO];
+    [super viewDidDisappear:animated];
 }
 
 - (void)didReceiveMemoryWarning

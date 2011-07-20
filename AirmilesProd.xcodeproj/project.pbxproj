@@ -22,6 +22,14 @@
 		84C6F21713D741B300C6BBD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F21513D741B300C6BBD6 /* InfoPlist.strings */; };
 		84C6F21A13D741B300C6BBD6 /* AirmilesProdTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F21913D741B300C6BBD6 /* AirmilesProdTests.h */; };
 		84C6F21C13D741B300C6BBD6 /* AirmilesProdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F21B13D741B300C6BBD6 /* AirmilesProdTests.m */; };
+		84C6F22C13D7454C00C6BBD6 /* buttonGreenBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F22613D7454C00C6BBD6 /* buttonGreenBkg.png */; };
+		84C6F22D13D7454C00C6BBD6 /* buttonRedBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F22713D7454C00C6BBD6 /* buttonRedBkg.png */; };
+		84C6F22E13D7454C00C6BBD6 /* searchScreenBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F22813D7454C00C6BBD6 /* searchScreenBkg.png */; };
+		84C6F22F13D7454C00C6BBD6 /* startScreenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F22913D7454C00C6BBD6 /* startScreenButton.png */; };
+		84C6F23013D7454C00C6BBD6 /* startScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F22A13D7454C00C6BBD6 /* startScreen.png */; };
+		84C6F23113D7454C00C6BBD6 /* cloudsBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F22B13D7454C00C6BBD6 /* cloudsBkg.png */; };
+		84C6F24813D74BC400C6BBD6 /* SearchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F24613D74BC400C6BBD6 /* SearchScreenViewController.m */; };
+		84C6F24913D74BC400C6BBD6 /* SearchScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F24713D74BC400C6BBD6 /* SearchScreenViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,15 @@
 		84C6F21813D741B300C6BBD6 /* AirmilesProdTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirmilesProdTests-Prefix.pch"; sourceTree = "<group>"; };
 		84C6F21913D741B300C6BBD6 /* AirmilesProdTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirmilesProdTests.h; sourceTree = "<group>"; };
 		84C6F21B13D741B300C6BBD6 /* AirmilesProdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirmilesProdTests.m; sourceTree = "<group>"; };
+		84C6F22613D7454C00C6BBD6 /* buttonGreenBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonGreenBkg.png; path = ../../Images/GoMysteryTour/buttonGreenBkg.png; sourceTree = "<group>"; };
+		84C6F22713D7454C00C6BBD6 /* buttonRedBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = buttonRedBkg.png; path = ../../Images/GoMysteryTour/buttonRedBkg.png; sourceTree = "<group>"; };
+		84C6F22813D7454C00C6BBD6 /* searchScreenBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = searchScreenBkg.png; path = ../../Images/GoMysteryTour/searchScreenBkg.png; sourceTree = "<group>"; };
+		84C6F22913D7454C00C6BBD6 /* startScreenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startScreenButton.png; path = ../../Images/GoMysteryTour/startScreenButton.png; sourceTree = "<group>"; };
+		84C6F22A13D7454C00C6BBD6 /* startScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startScreen.png; path = ../../Images/GoMysteryTour/startScreen.png; sourceTree = "<group>"; };
+		84C6F22B13D7454C00C6BBD6 /* cloudsBkg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloudsBkg.png; path = ../../Images/GoMysteryTour/cloudsBkg.png; sourceTree = "<group>"; };
+		84C6F24513D74BC400C6BBD6 /* SearchScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchScreenViewController.h; sourceTree = "<group>"; };
+		84C6F24613D74BC400C6BBD6 /* SearchScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchScreenViewController.m; sourceTree = "<group>"; };
+		84C6F24713D74BC400C6BBD6 /* SearchScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchScreenViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +130,7 @@
 		84C6F1F213D741B300C6BBD6 /* AirmilesProd */ = {
 			isa = PBXGroup;
 			children = (
+				84C6F22513D7453200C6BBD6 /* Resources */,
 				84C6F1FB13D741B300C6BBD6 /* AirmilesProdAppDelegate.h */,
 				84C6F1FC13D741B300C6BBD6 /* AirmilesProdAppDelegate.m */,
 				84C6F1FE13D741B300C6BBD6 /* MainWindow.xib */,
@@ -120,6 +138,9 @@
 				84C6F20213D741B300C6BBD6 /* RootViewController.m */,
 				84C6F20413D741B300C6BBD6 /* RootViewController.xib */,
 				84C6F1F313D741B300C6BBD6 /* Supporting Files */,
+				84C6F24513D74BC400C6BBD6 /* SearchScreenViewController.h */,
+				84C6F24613D74BC400C6BBD6 /* SearchScreenViewController.m */,
+				84C6F24713D74BC400C6BBD6 /* SearchScreenViewController.xib */,
 			);
 			path = AirmilesProd;
 			sourceTree = "<group>";
@@ -153,6 +174,19 @@
 				84C6F21813D741B300C6BBD6 /* AirmilesProdTests-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C6F22513D7453200C6BBD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F22613D7454C00C6BBD6 /* buttonGreenBkg.png */,
+				84C6F22713D7454C00C6BBD6 /* buttonRedBkg.png */,
+				84C6F22813D7454C00C6BBD6 /* searchScreenBkg.png */,
+				84C6F22913D7454C00C6BBD6 /* startScreenButton.png */,
+				84C6F22A13D7454C00C6BBD6 /* startScreen.png */,
+				84C6F22B13D7454C00C6BBD6 /* cloudsBkg.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +259,13 @@
 				84C6F1F713D741B300C6BBD6 /* InfoPlist.strings in Resources */,
 				84C6F20013D741B300C6BBD6 /* MainWindow.xib in Resources */,
 				84C6F20613D741B300C6BBD6 /* RootViewController.xib in Resources */,
+				84C6F22C13D7454C00C6BBD6 /* buttonGreenBkg.png in Resources */,
+				84C6F22D13D7454C00C6BBD6 /* buttonRedBkg.png in Resources */,
+				84C6F22E13D7454C00C6BBD6 /* searchScreenBkg.png in Resources */,
+				84C6F22F13D7454C00C6BBD6 /* startScreenButton.png in Resources */,
+				84C6F23013D7454C00C6BBD6 /* startScreen.png in Resources */,
+				84C6F23113D7454C00C6BBD6 /* cloudsBkg.png in Resources */,
+				84C6F24913D74BC400C6BBD6 /* SearchScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +304,7 @@
 				84C6F1FA13D741B300C6BBD6 /* main.m in Sources */,
 				84C6F1FD13D741B300C6BBD6 /* AirmilesProdAppDelegate.m in Sources */,
 				84C6F20313D741B300C6BBD6 /* RootViewController.m in Sources */,
+				84C6F24813D74BC400C6BBD6 /* SearchScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
