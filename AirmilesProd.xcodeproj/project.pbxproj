@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C6F1ED13D741B300C6BBD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6F1EC13D741B300C6BBD6 /* UIKit.framework */; };
+		84C6F1EF13D741B300C6BBD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6F1EE13D741B300C6BBD6 /* Foundation.framework */; };
+		84C6F1F113D741B300C6BBD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6F1F013D741B300C6BBD6 /* CoreGraphics.framework */; };
+		84C6F1F713D741B300C6BBD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F1F513D741B300C6BBD6 /* InfoPlist.strings */; };
+		84C6F1FA13D741B300C6BBD6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F1F913D741B300C6BBD6 /* main.m */; };
+		84C6F1FD13D741B300C6BBD6 /* AirmilesProdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F1FC13D741B300C6BBD6 /* AirmilesProdAppDelegate.m */; };
+		84C6F20013D741B300C6BBD6 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F1FE13D741B300C6BBD6 /* MainWindow.xib */; };
+		84C6F20313D741B300C6BBD6 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F20213D741B300C6BBD6 /* RootViewController.m */; };
+		84C6F20613D741B300C6BBD6 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F20413D741B300C6BBD6 /* RootViewController.xib */; };
+		84C6F20D13D741B300C6BBD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6F1EC13D741B300C6BBD6 /* UIKit.framework */; };
+		84C6F20E13D741B300C6BBD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6F1EE13D741B300C6BBD6 /* Foundation.framework */; };
+		84C6F20F13D741B300C6BBD6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C6F1F013D741B300C6BBD6 /* CoreGraphics.framework */; };
+		84C6F21713D741B300C6BBD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F21513D741B300C6BBD6 /* InfoPlist.strings */; };
+		84C6F21A13D741B300C6BBD6 /* AirmilesProdTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F21913D741B300C6BBD6 /* AirmilesProdTests.h */; };
+		84C6F21C13D741B300C6BBD6 /* AirmilesProdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F21B13D741B300C6BBD6 /* AirmilesProdTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84C6F21013D741B300C6BBD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84C6F1DF13D741B300C6BBD6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84C6F1E713D741B300C6BBD6;
+			remoteInfo = AirmilesProd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84C6F1E813D741B300C6BBD6 /* AirmilesProd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirmilesProd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C6F1EC13D741B300C6BBD6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84C6F1EE13D741B300C6BBD6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C6F1F013D741B300C6BBD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84C6F1F413D741B300C6BBD6 /* AirmilesProd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirmilesProd-Info.plist"; sourceTree = "<group>"; };
+		84C6F1F613D741B300C6BBD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C6F1F813D741B300C6BBD6 /* AirmilesProd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirmilesProd-Prefix.pch"; sourceTree = "<group>"; };
+		84C6F1F913D741B300C6BBD6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C6F1FB13D741B300C6BBD6 /* AirmilesProdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirmilesProdAppDelegate.h; sourceTree = "<group>"; };
+		84C6F1FC13D741B300C6BBD6 /* AirmilesProdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirmilesProdAppDelegate.m; sourceTree = "<group>"; };
+		84C6F1FF13D741B300C6BBD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		84C6F20113D741B300C6BBD6 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		84C6F20213D741B300C6BBD6 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		84C6F20513D741B300C6BBD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		84C6F20C13D741B300C6BBD6 /* AirmilesProdTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirmilesProdTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C6F21413D741B300C6BBD6 /* AirmilesProdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirmilesProdTests-Info.plist"; sourceTree = "<group>"; };
+		84C6F21613D741B300C6BBD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C6F21813D741B300C6BBD6 /* AirmilesProdTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirmilesProdTests-Prefix.pch"; sourceTree = "<group>"; };
+		84C6F21913D741B300C6BBD6 /* AirmilesProdTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirmilesProdTests.h; sourceTree = "<group>"; };
+		84C6F21B13D741B300C6BBD6 /* AirmilesProdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirmilesProdTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C6F1E513D741B300C6BBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6F1ED13D741B300C6BBD6 /* UIKit.framework in Frameworks */,
+				84C6F1EF13D741B300C6BBD6 /* Foundation.framework in Frameworks */,
+				84C6F1F113D741B300C6BBD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C6F20813D741B300C6BBD6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6F20D13D741B300C6BBD6 /* UIKit.framework in Frameworks */,
+				84C6F20E13D741B300C6BBD6 /* Foundation.framework in Frameworks */,
+				84C6F20F13D741B300C6BBD6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C6F1DD13D741B300C6BBD6 = {
+			isa = PBXGroup;
+			children = (
+				84C6F1F213D741B300C6BBD6 /* AirmilesProd */,
+				84C6F21213D741B300C6BBD6 /* AirmilesProdTests */,
+				84C6F1EB13D741B300C6BBD6 /* Frameworks */,
+				84C6F1E913D741B300C6BBD6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C6F1E913D741B300C6BBD6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F1E813D741B300C6BBD6 /* AirmilesProd.app */,
+				84C6F20C13D741B300C6BBD6 /* AirmilesProdTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C6F1EB13D741B300C6BBD6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F1EC13D741B300C6BBD6 /* UIKit.framework */,
+				84C6F1EE13D741B300C6BBD6 /* Foundation.framework */,
+				84C6F1F013D741B300C6BBD6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C6F1F213D741B300C6BBD6 /* AirmilesProd */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F1FB13D741B300C6BBD6 /* AirmilesProdAppDelegate.h */,
+				84C6F1FC13D741B300C6BBD6 /* AirmilesProdAppDelegate.m */,
+				84C6F1FE13D741B300C6BBD6 /* MainWindow.xib */,
+				84C6F20113D741B300C6BBD6 /* RootViewController.h */,
+				84C6F20213D741B300C6BBD6 /* RootViewController.m */,
+				84C6F20413D741B300C6BBD6 /* RootViewController.xib */,
+				84C6F1F313D741B300C6BBD6 /* Supporting Files */,
+			);
+			path = AirmilesProd;
+			sourceTree = "<group>";
+		};
+		84C6F1F313D741B300C6BBD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F1F413D741B300C6BBD6 /* AirmilesProd-Info.plist */,
+				84C6F1F513D741B300C6BBD6 /* InfoPlist.strings */,
+				84C6F1F813D741B300C6BBD6 /* AirmilesProd-Prefix.pch */,
+				84C6F1F913D741B300C6BBD6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84C6F21213D741B300C6BBD6 /* AirmilesProdTests */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F21913D741B300C6BBD6 /* AirmilesProdTests.h */,
+				84C6F21B13D741B300C6BBD6 /* AirmilesProdTests.m */,
+				84C6F21313D741B300C6BBD6 /* Supporting Files */,
+			);
+			path = AirmilesProdTests;
+			sourceTree = "<group>";
+		};
+		84C6F21313D741B300C6BBD6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F21413D741B300C6BBD6 /* AirmilesProdTests-Info.plist */,
+				84C6F21513D741B300C6BBD6 /* InfoPlist.strings */,
+				84C6F21813D741B300C6BBD6 /* AirmilesProdTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C6F1E713D741B300C6BBD6 /* AirmilesProd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C6F21F13D741B300C6BBD6 /* Build configuration list for PBXNativeTarget "AirmilesProd" */;
+			buildPhases = (
+				84C6F1E413D741B300C6BBD6 /* Sources */,
+				84C6F1E513D741B300C6BBD6 /* Frameworks */,
+				84C6F1E613D741B300C6BBD6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirmilesProd;
+			productName = AirmilesProd;
+			productReference = 84C6F1E813D741B300C6BBD6 /* AirmilesProd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84C6F20B13D741B300C6BBD6 /* AirmilesProdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C6F22213D741B300C6BBD6 /* Build configuration list for PBXNativeTarget "AirmilesProdTests" */;
+			buildPhases = (
+				84C6F20713D741B300C6BBD6 /* Sources */,
+				84C6F20813D741B300C6BBD6 /* Frameworks */,
+				84C6F20913D741B300C6BBD6 /* Resources */,
+				84C6F20A13D741B300C6BBD6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84C6F21113D741B300C6BBD6 /* PBXTargetDependency */,
+			);
+			name = AirmilesProdTests;
+			productName = AirmilesProdTests;
+			productReference = 84C6F20C13D741B300C6BBD6 /* AirmilesProdTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C6F1DF13D741B300C6BBD6 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84C6F1E213D741B300C6BBD6 /* Build configuration list for PBXProject "AirmilesProd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C6F1DD13D741B300C6BBD6;
+			productRefGroup = 84C6F1E913D741B300C6BBD6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C6F1E713D741B300C6BBD6 /* AirmilesProd */,
+				84C6F20B13D741B300C6BBD6 /* AirmilesProdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C6F1E613D741B300C6BBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6F1F713D741B300C6BBD6 /* InfoPlist.strings in Resources */,
+				84C6F20013D741B300C6BBD6 /* MainWindow.xib in Resources */,
+				84C6F20613D741B300C6BBD6 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C6F20913D741B300C6BBD6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6F21713D741B300C6BBD6 /* InfoPlist.strings in Resources */,
+				84C6F21A13D741B300C6BBD6 /* AirmilesProdTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84C6F20A13D741B300C6BBD6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C6F1E413D741B300C6BBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6F1FA13D741B300C6BBD6 /* main.m in Sources */,
+				84C6F1FD13D741B300C6BBD6 /* AirmilesProdAppDelegate.m in Sources */,
+				84C6F20313D741B300C6BBD6 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C6F20713D741B300C6BBD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C6F21C13D741B300C6BBD6 /* AirmilesProdTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84C6F21113D741B300C6BBD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84C6F1E713D741B300C6BBD6 /* AirmilesProd */;
+			targetProxy = 84C6F21013D741B300C6BBD6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84C6F1F513D741B300C6BBD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6F1F613D741B300C6BBD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84C6F1FE13D741B300C6BBD6 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6F1FF13D741B300C6BBD6 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		84C6F20413D741B300C6BBD6 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6F20513D741B300C6BBD6 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		84C6F21513D741B300C6BBD6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C6F21613D741B300C6BBD6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C6F21D13D741B300C6BBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84C6F21E13D741B300C6BBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		84C6F22013D741B300C6BBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirmilesProd/AirmilesProd-Prefix.pch";
+				INFOPLIST_FILE = "AirmilesProd/AirmilesProd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84C6F22113D741B300C6BBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirmilesProd/AirmilesProd-Prefix.pch";
+				INFOPLIST_FILE = "AirmilesProd/AirmilesProd-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84C6F22313D741B300C6BBD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirmilesProd.app/AirmilesProd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirmilesProdTests/AirmilesProdTests-Prefix.pch";
+				INFOPLIST_FILE = "AirmilesProdTests/AirmilesProdTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84C6F22413D741B300C6BBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirmilesProd.app/AirmilesProd";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirmilesProdTests/AirmilesProdTests-Prefix.pch";
+				INFOPLIST_FILE = "AirmilesProdTests/AirmilesProdTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C6F1E213D741B300C6BBD6 /* Build configuration list for PBXProject "AirmilesProd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6F21D13D741B300C6BBD6 /* Debug */,
+				84C6F21E13D741B300C6BBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C6F21F13D741B300C6BBD6 /* Build configuration list for PBXNativeTarget "AirmilesProd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6F22013D741B300C6BBD6 /* Debug */,
+				84C6F22113D741B300C6BBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84C6F22213D741B300C6BBD6 /* Build configuration list for PBXNativeTarget "AirmilesProdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C6F22313D741B300C6BBD6 /* Debug */,
+				84C6F22413D741B300C6BBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C6F1DF13D741B300C6BBD6 /* Project object */;
+}
