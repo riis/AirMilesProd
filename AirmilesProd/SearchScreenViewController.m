@@ -7,15 +7,24 @@
 //
 
 #import "SearchScreenViewController.h"
-
+#import "DepartureDateViewController.h"
 
 @implementation SearchScreenViewController
-@synthesize cancelButton, saveButton;
+@synthesize cancelButton, saveButton, departureDateTextField;
 
 - (IBAction) cancel: (id) sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
 
+- (IBAction) setDepartureDate:(id)sender {
+    DepartureDateViewController *departureDateVC = [[DepartureDateViewController alloc] initWithNibName:@"DepartureDateViewController" bundle:nil];
+    [departureDateVC setModalPresentationStyle:UIModalTransitionStyleCoverVertical];
+    
+    [self presentModalViewController:departureDateVC animated:YES];
+    
+    // Disable the keyboard from appearing
+    departureDateTextField.userInteractionEnabled = NO;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

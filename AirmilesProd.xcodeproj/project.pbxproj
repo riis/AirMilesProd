@@ -30,6 +30,8 @@
 		84C6F23113D7454C00C6BBD6 /* cloudsBkg.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F22B13D7454C00C6BBD6 /* cloudsBkg.png */; };
 		84C6F24813D74BC400C6BBD6 /* SearchScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F24613D74BC400C6BBD6 /* SearchScreenViewController.m */; };
 		84C6F24913D74BC400C6BBD6 /* SearchScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F24713D74BC400C6BBD6 /* SearchScreenViewController.xib */; };
+		84C6F24D13D75EF600C6BBD6 /* DepartureDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C6F24B13D75EF600C6BBD6 /* DepartureDateViewController.m */; };
+		84C6F24E13D75EF600C6BBD6 /* DepartureDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C6F24C13D75EF600C6BBD6 /* DepartureDateViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,9 @@
 		84C6F24513D74BC400C6BBD6 /* SearchScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchScreenViewController.h; sourceTree = "<group>"; };
 		84C6F24613D74BC400C6BBD6 /* SearchScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchScreenViewController.m; sourceTree = "<group>"; };
 		84C6F24713D74BC400C6BBD6 /* SearchScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchScreenViewController.xib; sourceTree = "<group>"; };
+		84C6F24A13D75EF600C6BBD6 /* DepartureDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartureDateViewController.h; sourceTree = "<group>"; };
+		84C6F24B13D75EF600C6BBD6 /* DepartureDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartureDateViewController.m; sourceTree = "<group>"; };
+		84C6F24C13D75EF600C6BBD6 /* DepartureDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DepartureDateViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +184,7 @@
 		84C6F22513D7453200C6BBD6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84C6F24F13D75EFD00C6BBD6 /* Departure Date Modal */,
 				84C6F22613D7454C00C6BBD6 /* buttonGreenBkg.png */,
 				84C6F22713D7454C00C6BBD6 /* buttonRedBkg.png */,
 				84C6F22813D7454C00C6BBD6 /* searchScreenBkg.png */,
@@ -187,6 +193,16 @@
 				84C6F22B13D7454C00C6BBD6 /* cloudsBkg.png */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		84C6F24F13D75EFD00C6BBD6 /* Departure Date Modal */ = {
+			isa = PBXGroup;
+			children = (
+				84C6F24A13D75EF600C6BBD6 /* DepartureDateViewController.h */,
+				84C6F24B13D75EF600C6BBD6 /* DepartureDateViewController.m */,
+				84C6F24C13D75EF600C6BBD6 /* DepartureDateViewController.xib */,
+			);
+			name = "Departure Date Modal";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +282,7 @@
 				84C6F23013D7454C00C6BBD6 /* startScreen.png in Resources */,
 				84C6F23113D7454C00C6BBD6 /* cloudsBkg.png in Resources */,
 				84C6F24913D74BC400C6BBD6 /* SearchScreenViewController.xib in Resources */,
+				84C6F24E13D75EF600C6BBD6 /* DepartureDateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +322,7 @@
 				84C6F1FD13D741B300C6BBD6 /* AirmilesProdAppDelegate.m in Sources */,
 				84C6F20313D741B300C6BBD6 /* RootViewController.m in Sources */,
 				84C6F24813D74BC400C6BBD6 /* SearchScreenViewController.m in Sources */,
+				84C6F24D13D75EF600C6BBD6 /* DepartureDateViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,11 +12,14 @@
 @interface SearchScreenViewController : UIViewController {
     IBOutlet UIButton *cancelButton;
     IBOutlet UIButton *saveButton;
+    IBOutlet UITextField *departureDateTextField;
 }
 
 - (IBAction) cancel:(id)sender;
+- (IBAction) setDepartureDate:(id)sender;
 
 @property (nonatomic, retain) IBOutlet UIButton *cancelButton;
 @property (nonatomic, retain) IBOutlet UIButton *saveButton;
+@property (nonatomic, retain) IBOutlet UITextField *departureDateTextField;
 
 @end

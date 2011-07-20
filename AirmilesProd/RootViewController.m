@@ -62,6 +62,7 @@
 
 - (void)dealloc
 {
+    [startSearchButton release];
     [super dealloc];
 }
 
