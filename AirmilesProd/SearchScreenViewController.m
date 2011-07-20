@@ -13,7 +13,7 @@
 @synthesize cancelButton, saveButton;
 
 - (IBAction) cancel: (id) sender {
-	[self dismissModalViewControllerAnimated:YES];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 
@@ -41,11 +41,20 @@
 
 #pragma mark - View lifecycle
 
+- (void) viewWillAppear:(BOOL)animated
+{
+    [self.navigationController setNavigationBarHidden:NO animated:NO];
+    [super viewWillAppear:animated];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     [self.navigationItem initWithTitle:@"Search Criteria"];
+    
+    // Hides the back button in the Top Nav
+    self.navigationItem.hidesBackButton = YES;
     
     // Adds Rounded Corners to the Save Button
     [[saveButton layer] setMasksToBounds:YES];

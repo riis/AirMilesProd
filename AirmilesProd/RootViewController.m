@@ -26,26 +26,24 @@
 - (IBAction) initiateSearch:(id)sender {
         
     SearchScreenViewController *searchVC = [[SearchScreenViewController alloc] initWithNibName:@"SearchScreenViewController" bundle:nil];
-    UINavigationController *navControl = [[UINavigationController alloc] initWithRootViewController:searchVC];
     
-    [self presentModalViewController:navControl animated:YES];
+    [self.navigationController pushViewController:searchVC animated:YES];
     
     [searchVC release];
-    [navControl release];
 }
 
 - (void) viewWillAppear:(BOOL)animated
 {
-    [self.navigationController setNavigationBarHidden:YES animated:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
     [super viewWillAppear:animated];
 }
-
+/*
 - (void) viewDidDisappear:(BOOL)animated
 {
     [self.navigationController setNavigationBarHidden:NO animated:NO];
     [super viewDidDisappear:animated];
 }
-
+*/
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
