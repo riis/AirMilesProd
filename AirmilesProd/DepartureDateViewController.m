@@ -12,6 +12,12 @@
 @implementation DepartureDateViewController
 @synthesize departureDate, departureDateCancelButton, departureDateNavBar, departureDateSaveButton;
 
+- (IBAction) done:(id)sender {
+
+    NSLog(@"Add code to format and return date");
+    
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

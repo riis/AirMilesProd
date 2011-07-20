@@ -17,6 +17,7 @@
 }
 
 - (IBAction) cancelModalEvent:(id)sender;
+- (IBAction) done:(id)sender;
 
 @property (nonatomic, retain) IBOutlet UIDatePicker *departureDate;
 @property (nonatomic, retain) IBOutlet UINavigationBar *departureDateNavBar;
